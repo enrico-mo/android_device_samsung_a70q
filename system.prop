@@ -3,3 +3,7 @@ sys.usb.rndis.func.name=rndis_bam
 sys.usb.rmnet.func.name=rmnet_bam
 ro.hardware.gatekeeper=mdfpp
 ro.vendor.build.security_patch=2099-12-31
+persist.sys.isUsbOtgEnabled=true
+vendor.gatekeeper.disable_spu=true
+ro.boot.avb_version=1.0
+ro.boot.vbmeta.avb_version=1.0
