@@ -750,16 +750,6 @@
         <fqname>@1.0::IDrkService/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.samsung.security.proca</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IProcaDaemon</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::IProcaDaemon/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>vendor.samsung.security.sem</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
@@ -788,16 +778,6 @@
             <instance>default</instance>
         </interface>
         <fqname>@1.0::Ivaultkeeper_server/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.samsung.security.wsm</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IWsmDaemon</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::IWsmDaemon/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.samsung.security.wvkprov_server</name>
