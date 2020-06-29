@@ -770,16 +770,6 @@
         <fqname>@1.0::ISkpm/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.samsung.security.vaultkeeper_server</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>Ivaultkeeper_server</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::Ivaultkeeper_server/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>vendor.samsung.security.wvkprov_server</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
