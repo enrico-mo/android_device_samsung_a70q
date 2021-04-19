@@ -1,11 +1,11 @@
 #
-# Copyright 2020 The LineageOS Project
+# Copyright (C) 2021 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
 #
-#      http://www.apache.org/licenses/LICENSE-2.0
+# http://www.apache.org/licenses/LICENSE-2.0
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
@@ -14,19 +14,10 @@
 # limitations under the License.
 #
 
-# This contains the module build definitions for the hardware-specific
-# components for this device.
-#
-# As much as possible, those components should be built unconditionally,
-# with device-specific names to avoid collisions, to avoid device-specific
-# bitrot and build breakages. Building a component unconditionally does
-# *not* include it on all devices, so it is safe even with hardware-specific
-# components.
-
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_a70q.mk
 
 COMMON_LUNCH_CHOICES := \
     lineage_a70q-eng \
-    lineage_a70q-user \
-    lineage_a70q-userdebug
+    lineage_a70q-userdebug \
+    lineage_a70q-user
