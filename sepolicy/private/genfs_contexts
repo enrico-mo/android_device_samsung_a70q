@@ -1,2 +1,1 @@
-# Fingerprint
-genfscon sysfs /devices/virtual/lcd/panel    u:object_r:sysfs_lcd_writable:s0
+
